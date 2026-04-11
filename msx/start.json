@@ -1,10 +1,10 @@
 {
-  "name": "TELEVIZO",
+  "name": "IPTV PLAYER",
   "version": "1.0.0",
-  "parameter": "menu:https://lindtchristoph-sketch.github.io/msx/menu.json",
+  "parameter": "content:https://lindtchristoph-sketch.github.io/msx/home.json",
   "launcher": {
-    "icon": "none",
-    "image": "https://lindtchristoph-sketch.github.io/msx/img/televizo.png",
+    "icon": "live-tv",
+    "image": "none",
     "color": "#000000"
   }
 }
