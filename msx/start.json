@@ -1,0 +1,10 @@
+{
+  "name": "TELEVIZO",
+  "version": "1.0.0",
+  "parameter": "content:https://lindtchristoph-sketch.github.io/msx/televizo_home.json",
+  "launcher": {
+    "icon": "none",
+    "image": "https://lindtchristoph-sketch.github.io/msx/img/logo.png",
+    "color": "#1b1f2a"
+  }
+}

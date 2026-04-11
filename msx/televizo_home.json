@@ -1,0 +1,18 @@
+{
+  "type": "list",
+  "headline": "TELEVIZO",
+  "items": [
+    {
+      "type": "button",
+      "label": "Televizo direkt starten",
+      "icon": "live-tv",
+      "action": "system:tvx:launch:com.ottplay.ottplay"
+    },
+    {
+      "type": "button",
+      "label": "Website",
+      "icon": "link",
+      "action": "link:https://televizoiptv.de"
+    }
+  ]
+}
