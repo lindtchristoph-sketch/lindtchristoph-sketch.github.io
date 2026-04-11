@@ -1,15 +1,11 @@
 {
-  "type": "list",
   "headline": "TELEVIZO",
-  "template": {
-    "type": "separate",
-    "layout": "0,0,4,2"
-  },
-  "items": [
+  "menu": [
     {
-      "title": "Televizo direkt starten",
-      "icon": "live-tv",
-      "action": "system:tvx:launch:com.ottplay.ottplay"
+      "icon": "none",
+      "image": "https://lindtchristoph-sketch.github.io/msx/img/televizo.png",
+      "label": "TELEVIZO",
+      "action": "link:https://televizoiptv.de"
     }
   ]
 }
