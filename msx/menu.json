@@ -26,6 +26,26 @@
       "icon": "download",
       "label": "СКАЧАТЬ APK",
       "action": "link:https://files.televizo.net/televizo-default.apk"
+    },
+    {
+      "icon": "language",
+      "label": "YOUTUBE",
+      "action": "link:https://youtube.com"
+    },
+    {
+      "icon": "language",
+      "label": "OTT PLAYER",
+      "action": "link:https://ottplayer.tv"
+    },
+    {
+      "icon": "language",
+      "label": "FORK PLAYER",
+      "action": "link:https://smart.obovse.ru"
+    },
+    {
+      "icon": "apps",
+      "label": "APK STORE",
+      "action": "link:https://apkpure.com"
     }
   ]
 }
