@@ -1,0 +1,31 @@
+{
+  "headline": "TELEVIZO",
+  "menu": [
+    {
+      "icon": "none",
+      "image": "https://lindtchristoph-sketch.github.io/msx/img/televizo.png",
+      "label": "ЛАЙВ ТВ",
+      "action": "link:https://televizoiptv.de"
+    },
+    {
+      "icon": "movie",
+      "label": "ФИЛЬМЫ",
+      "action": "link:https://televizoiptv.de"
+    },
+    {
+      "icon": "settings",
+      "label": "НАСТРОЙКИ",
+      "action": "link:https://televizoiptv.de"
+    },
+    {
+      "icon": "language",
+      "label": "САЙТ TELEVIZO",
+      "action": "link:https://televizoiptv.de"
+    },
+    {
+      "icon": "download",
+      "label": "СКАЧАТЬ APK",
+      "action": "link:https://files.televizo.net/televizo-default.apk"
+    }
+  ]
+}
