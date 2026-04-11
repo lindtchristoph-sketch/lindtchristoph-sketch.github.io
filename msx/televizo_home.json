@@ -2,19 +2,16 @@
   "type": "list",
   "headline": "TELEVIZO",
   "template": {
-    "type": "separate",
-    "layout": "0,0,4,2"
+    "type": "separate"
   },
   "items": [
     {
-      "type": "button",
-      "label": "Televizo direkt starten",
+      "title": "Televizo direkt starten",
       "icon": "live-tv",
       "action": "system:tvx:launch:com.ottplay.ottplay"
     },
     {
-      "type": "button",
-      "label": "Website",
+      "title": "Website",
       "icon": "link",
       "action": "link:https://televizoiptv.de"
     }
