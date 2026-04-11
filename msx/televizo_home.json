@@ -2,7 +2,8 @@
   "type": "list",
   "headline": "TELEVIZO",
   "template": {
-    "type": "separate"
+    "type": "separate",
+    "layout": "0,0,4,2"
   },
   "items": [
     {
