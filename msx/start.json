@@ -1,7 +1,7 @@
 {
   "name": "TELEVIZO",
   "version": "1.0.0",
-  "parameter": "menu:https://lindtchristoph-sketch.github.io/msx/televizo_home.json",
+  "parameter": "content:https://lindtchristoph-sketch.github.io/msx/televizo_home.json",
   "launcher": {
     "icon": "live-tv",
     "image": "none",
