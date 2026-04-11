@@ -10,11 +10,6 @@
       "title": "Televizo direkt starten",
       "icon": "live-tv",
       "action": "system:tvx:launch:com.ottplay.ottplay"
-    },
-    {
-      "title": "Website",
-      "icon": "link",
-      "action": "link:https://televizoiptv.de"
     }
   ]
 }
