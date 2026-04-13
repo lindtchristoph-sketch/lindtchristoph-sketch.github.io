@@ -1,0 +1,30 @@
+*{box-sizing:border-box}html,body{margin:0;padding:0;height:100%;font-family:Segoe UI,Arial,sans-serif;background:#06121f;color:#f4f7fb}
+.app{display:grid;grid-template-columns:340px 1fr;min-height:100vh}
+.sidebar{background:#0d1b2a;padding:18px;display:flex;flex-direction:column;gap:14px;border-right:1px solid #27425e}
+.brandHeader{width:100%;height:auto;display:block;border-radius:18px}
+.card{background:#102033;border:1px solid #27425e;border-radius:18px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.card.grow{flex:1;min-height:240px}
+label{font-size:12px;color:#9fb3c8}
+input{width:100%;padding:11px 12px;border-radius:12px;border:1px solid #27425e;background:#06121f;color:#f4f7fb}
+button,.fileBtn{background:#18314a;color:#f4f7fb;border:1px solid #27425e;border-radius:12px;padding:10px 12px;cursor:pointer;font-weight:600;text-align:center}
+button.primary{background:#165ee8;border-color:#165ee8}
+button.ghost{background:transparent;color:#9fb3c8}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.row>*{flex:1}
+.fileBtn{display:inline-flex;align-items:center;justify-content:center}
+.listHeader{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.channelList{list-style:none;padding:0;margin:0;overflow:auto}
+.channelList li{padding:10px 12px;border-radius:12px;cursor:pointer;display:flex;align-items:center;gap:10px;margin-bottom:6px;background:#0d1b2a}
+.channelList li.active,.channelList li:hover{background:#b00028}
+.star{font-size:18px;line-height:1}
+.main{padding:18px;display:flex;flex-direction:column;gap:14px}
+.hero,.playerCard,.infoCard{background:#0d1b2a;border:1px solid #27425e;border-radius:22px;padding:16px}
+.hero{display:flex;justify-content:space-between;align-items:center}
+.hero h2{margin:0 0 4px;font-size:28px}.hero p{margin:0;color:#9fb3c8}
+.status{color:#ff7a18;font-weight:700}
+.playerTop{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:10px}
+.playerTop h3{margin:0}.playerTop p{margin:4px 0 0;color:#9fb3c8}
+.controls{display:flex;gap:8px;flex-wrap:wrap}
+video{width:100%;max-height:60vh;background:#000;border-radius:16px}
+.infoGrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:1000px){.app{grid-template-columns:1fr}.sidebar{border-right:none;border-bottom:1px solid #27425e}.infoGrid{grid-template-columns:1fr}}

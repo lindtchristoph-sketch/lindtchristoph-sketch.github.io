@@ -1,0 +1,10 @@
+{
+  "name": "WEBPLAYER",
+  "version": "1.0.0",
+  "parameter": "menu:https://lindtchristoph-sketch.github.io/msx/menu.json",
+  "launcher": {
+    "icon": "none",
+    "image": "https://lindtchristoph-sketch.github.io/msx/img/logo.png",
+    "color": "#000000"
+  }
+}

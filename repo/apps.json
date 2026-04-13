@@ -1,0 +1,76 @@
+{
+  "paging": {
+    "page": 1,
+    "count": 1,
+    "maxPage": 1,
+    "itemsTotal": 3
+  },
+  "packages": [
+    {
+      "id": "com.ottplay.app",
+      "title": "Ott-play",
+      "iconUri": "https://webosappclub.github.io/apps/com.ottplay.app/icon.png",
+      "manifest": {
+        "id": "com.ottplay.app",
+        "version": "0.2.2",
+        "type": "web",
+        "title": "Ott-play",
+        "appDescription": "Ott-play by Alex IPTV player",
+        "iconUri": "https://webosappclub.github.io/apps/com.ottplay.app/icon.png",
+        "sourceUrl": "http://ott-play.com/",
+        "rootRequired": false,
+        "ipkUrl": "https://webosappclub.github.io/apps/com.ottplay.app/com.ottplay.app_0.2.2_all.ipk",
+        "ipkHash": {
+          "sha256": "edc75d1b0606f81c3b930457643b2f0c314c0e64d536390b4019b30d45735199"
+        },
+        "ipkSize": 329544
+      },
+      "shortDescription": "IPTV player",
+      "fullDescriptionUrl": "https://webosappclub.github.io/apps/com.ottplay.app/index.html"
+    },
+    {
+      "id": "com.lampa.tv",
+      "title": "Lamp",
+      "iconUri": "https://webosappclub.github.io/apps/com.lampa.tv/icon.png",
+      "manifest": {
+        "id": "com.lampa.tv",
+        "version": "1.4.1",
+        "type": "web",
+        "title": "Lamp",
+        "appDescription": "Lamp app",
+        "iconUri": "https://webosappclub.github.io/apps/com.lampa.tv/icon.png",
+        "sourceUrl": "https://github.com/yumata/lampa",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/yumata/lampa/releases/download/v1.4.1/lampa_v1.4.1.ipk",
+        "ipkHash": {
+          "sha256": "f897172241f0fa3b7a909623154490cf8d2efebb1b538ec72be6b6bacaedb929"
+        },
+        "ipkSize": 7021158
+      },
+      "shortDescription": "Movie catalog",
+      "fullDescriptionUrl": "https://webosappclub.github.io/apps/com.lampa.tv/index.html"
+    },
+    {
+      "id": "com.huawei.app.webos.mts.tv.production",
+      "title": "KION",
+      "iconUri": "https://webosappclub.github.io/apps/com.huawei.app.webos.mts.tv.production/icon.png",
+      "manifest": {
+        "id": "com.huawei.app.webos.mts.tv.production",
+        "version": "3.1.4",
+        "type": "web",
+        "title": "KION",
+        "appDescription": "Official KION app",
+        "iconUri": "https://webosappclub.github.io/apps/com.huawei.app.webos.mts.tv.production/icon.png",
+        "sourceUrl": "https://kion.ru/",
+        "rootRequired": false,
+        "ipkUrl": "https://webosappclub.github.io/apps/com.huawei.app.webos.mts.tv.production/com.huawei.app.webos.mts.tv.production_3.1.4_all.ipk",
+        "ipkHash": {
+          "sha256": "08283d382fe11a64eaef44eaec9a424c9402564eaa4da696f9990e18bdd75756"
+        },
+        "ipkSize": 3692434
+      },
+      "shortDescription": "Official KION app",
+      "fullDescriptionUrl": "https://webosappclub.github.io/apps/com.huawei.app.webos.mts.tv.production/"
+    }
+  ]
+}

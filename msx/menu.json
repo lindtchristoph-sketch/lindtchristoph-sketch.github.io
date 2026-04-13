@@ -1,0 +1,31 @@
+{
+  "headline": "WEBPLAYER",
+  "menu": [
+    {
+      "icon": "none",
+      "image": "https://lindtchristoph-sketch.github.io/msx/img/logo.png",
+      "label": "WEBPLAYER",
+      "data": {
+        "pages": [
+          {
+            "items": [
+              {
+                "type": "space",
+                "layout": "0,0,12,1",
+                "headline": "SMART IPTV WEBPLAYER",
+                "text": "Browser-Version deines Players mit M3U, Datei-Upload und Xtream-Eingabe."
+              },
+              {
+                "type": "button",
+                "layout": "0,1,4,2",
+                "image": "https://lindtchristoph-sketch.github.io/msx/img/preview.png",
+                "label": "Webplayer öffnen",
+                "action": "link:https://lindtchristoph-sketch.github.io/webplayer/"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

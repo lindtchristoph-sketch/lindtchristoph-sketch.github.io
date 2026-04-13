@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart IPTV Web</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <img src="../msx/img/header.png" alt="Header" class="brandHeader" />
+      </div>
+
+      <div class="card">
+        <label>Playlist URL</label>
+        <input id="playlistUrl" type="text" placeholder="https://example.com/playlist.m3u" />
+        <div class="row">
+          <button id="loadPlaylistBtn" class="primary">Playlist laden</button>
+          <label class="fileBtn">
+            Datei
+            <input id="fileInput" type="file" accept=".m3u,.m3u8,.txt" hidden />
+          </label>
+        </div>
+      </div>
+
+      <div class="card">
+        <label>Xtream Server</label>
+        <input id="xtreamServer" type="text" placeholder="http://server:8080" />
+        <label>Benutzername</label>
+        <input id="xtreamUser" type="text" placeholder="username" />
+        <label>Passwort</label>
+        <input id="xtreamPass" type="password" placeholder="password" />
+        <div class="row">
+          <button id="loadXtreamBtn">Xtream laden</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <label>Suche</label>
+        <input id="searchInput" type="text" placeholder="Sender suchen..." />
+        <div class="row">
+          <button id="allBtn">Alle</button>
+          <button id="favBtn">Favoriten</button>
+        </div>
+      </div>
+
+      <div class="card grow">
+        <div class="listHeader">
+          <span id="channelCount">Sender: 0</span>
+          <button id="clearFavBtn" class="ghost">Fav löschen</button>
+        </div>
+        <ul id="channelList" class="channelList"></ul>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="hero">
+        <div>
+          <h2>IPTV Control Deck</h2>
+          <p>Web-Version deines Players mit eingebautem Design.</p>
+        </div>
+        <div id="status" class="status">Bereit</div>
+      </section>
+
+      <section class="playerCard">
+        <div class="playerTop">
+          <div>
+            <h3 id="nowPlaying">Kein Sender aktiv</h3>
+            <p id="streamInfo">Wähle links einen Sender aus.</p>
+          </div>
+          <div class="controls">
+            <button id="playPauseBtn">Play/Pause</button>
+            <button id="stopBtn">Stop</button>
+            <button id="muteBtn">Mute</button>
+          </div>
+        </div>
+        <video id="video" controls playsinline></video>
+      </section>
+
+      <section class="infoGrid">
+        <div class="infoCard">
+          <h3>M3U</h3>
+          <p>Lokale Datei oder Playlist-URL laden.</p>
+        </div>
+        <div class="infoCard">
+          <h3>Xtream</h3>
+          <p>Xtream Login direkt im Webplayer eingeben.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
